@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 /*
- * main - Entry point 
- * Descrioton a c program that prints with put function
- * return 0 for (success)
- * */
+ * main - Entry point
+ *  
+ * Descrioton: a c program that prints with put function
+ *
+ * Return: Alawys 0 (success)
+*/
 
 int main(void)
 {
