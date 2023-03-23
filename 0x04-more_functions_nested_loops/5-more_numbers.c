@@ -2,7 +2,7 @@
 
 /**
  * more_numbers - print 0 - 14 ten times
- *and you can only use _putchar there times
+ *		and you can only use _putchar there times
  * Return: Always 0 (success)
 */
 
