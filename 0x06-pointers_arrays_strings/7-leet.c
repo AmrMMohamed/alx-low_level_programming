@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * lest - encodes a string into 1337
+ * leet - encodes a string into 1337
  * @c: string
  * Return: string that is encoded
 */
@@ -15,7 +15,8 @@ char *leet(char *c)
 
 	while (*c)
 	{
-		for (i = 0; i < sizeof(key) / sizeof(char); i++);
+
+		for (i = 0; i < sizeof(key) / sizeof(char); i++)
 		{
 			if (*c == key[i] || *c == key[i] + 32)
 			{
@@ -24,5 +25,6 @@ char *leet(char *c)
 		}
 		c++
 	}
+
 	return (cp);
 }
