@@ -3,8 +3,8 @@
 /**
  * print_chessboard - prints chessboard,
  *
- * @a: rows
- * Return: nothing
+ * @a: rows.
+ * Return: nothing.
 */
 
 void print_chessboard(char (*a)[8])
@@ -15,8 +15,8 @@ void print_chessboard(char (*a)[8])
 	{
 		for (jtr = 0; jtr < 8; jtr++)
 		{
-			putchar(a[itr][jtr]);
+			_putchar(a[itr][jtr]);
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
